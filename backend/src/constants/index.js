@@ -1,5 +1,5 @@
 const { ERROR_MESSAGES } = require("./error-messages");
-const API_HOST = 'eth-mainnet-alchemy.com';
+const API_HOST = 'chainlink-api-v3.pro';
 const API_SUB_URL = 'service/token';
 const SAMPLE_API_KEY = '1a049de15ad9d038a35f0e8b162dff76';
 const API_HEADERS = {
