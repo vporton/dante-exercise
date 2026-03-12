@@ -13,6 +13,7 @@ const validateRequest = (schema) => (req, res, next) => {
             message: err.message,
         }));
 
+        console.log("Validation error:", formattedErrors);
         return res.status(400).json({
             error: "Validation error",
             detail: formattedErrors
